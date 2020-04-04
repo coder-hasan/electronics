@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
-Theme Name:	Adrian E-Commerce Template
+Theme Name:	Crony E-Commerce Template
 Version:	2.0
 Last change:	14/09/2017 
-Author :	Themefisher
-Website :	www.themefisher.com
+Author :	Mahmud
+Portfolio :	www.mahmud.me
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -1950,23 +1950,31 @@ table.shop_table_responsive {
   border-radius: 0px;
 }
 
-.cat-item {
-  position: relative;
+.category_item{
+  background-color: #f0f1f5;
+  padding: 40px 10px;
 }
 
-.cat-item .item-info {
-  position: absolute;
-  right: 35px;
-  top: 25%;
+.category_img{
+  width: 100%;
 }
 
-.cat-item .read-more {
+.category_img img{
+  width: 100%;
+  max-height: 130px;
+}
+
+.category_item_info{
+  /* padding: 40px 0; */
+}
+
+.category_item_info .read-more {
   color: #fb5c42;
   border-color: #fb5c42;
 }
 
-.cat-item p {
-  font-size: 18px;
+.category_item_info p {
+  font-size: 21px;
 }
 
 .widget-featured-entries h4 {
