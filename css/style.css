@@ -988,7 +988,7 @@ a.text-primary:hover {
   -webkit-transition: .4s all;
   transition: .4s all;
   overflow: hidden;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   width: 100%;
   height: 395px;
 }
@@ -997,6 +997,7 @@ a.text-primary:hover {
   width: 100%;
   height: 340px;
   position: relative;
+  background-color: #f1f1f1;
 }
 
 .product .product-wrap img.img-first,.product .product-wrap img.img-second{
@@ -1089,6 +1090,7 @@ a.text-primary:hover {
 
 .product-info {
   text-align: center;
+  padding: 10px 0;
 }
 
 .product-info .price {
@@ -1835,9 +1837,9 @@ a.text-primary:hover {
 }
 
 .ads {
-  background: rgba(252, 114, 104, 0.06);
-  background: url("../images/backgrounds/counter.jpg") no-repeat;
-  background-size: cover;
+  background: rgba(232, 158, 173, 1);
+  /* background: url("../images/backgrounds/counter.jpg") no-repeat; */
+  /* background-size: cover; */
   position: relative;
 }
 
