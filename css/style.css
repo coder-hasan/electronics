@@ -2007,6 +2007,37 @@ table.shop_table_responsive {
   font-size: 21px;
 }
 
+.trndy_quality{
+  background: url(../images/laptop.png) no-repeat bottom left;
+  background-size: cover;
+  background-color: #ecf0f1;
+  height: 490px;
+  padding: 50px 20px;
+  border: 1px solid #ccc;
+}
+
+.trndy_quality h3{
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.trndy_quality .btn{
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 0;
+  padding: 8px 18px;
+}
+
+.trndy_quality .btn-main{
+  background-color: #0166f2;
+  border: 2px solid #0166f2;
+}
+
+.trndy_quality .btn-main:hover{
+  background-color: transparent;
+}
+
 .widget-featured-entries h4 {
   display: block;
   position: relative;
@@ -2021,6 +2052,14 @@ table.shop_table_responsive {
   height: 2px;
   background-color: #fb5c42;
   content: '';
+}
+
+.thumb_img{
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  background-color: #f1eff0;
+  /* padding: 5px; */
 }
 
 .featured-entry-title a {
@@ -2187,6 +2226,12 @@ table.shop_table_responsive {
   color: #000;
   padding-top: 8px;
   border-radius: 100%;
+}
+
+.footer-widget h5 a{
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+  color: #000;
 }
 
 .footer-btm-links a {
