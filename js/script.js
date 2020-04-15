@@ -13,6 +13,10 @@
     nextArrow: '<div class="slick-control-next"><i class="tf-ion-android-arrow-forward"></i></div>'
   });
 
+  $('.carousel').carousel({
+    interval: false
+  })
+
 
   // Count Down JS
 
