@@ -446,7 +446,7 @@ a.text-primary:hover {
 }
 
 .page-header {
-  background: #f3f3f3;
+  background-color: #f3f3f3;
   /* background: url("../images/backgrounds/header-bg.jpg") no-repeat 50% 50%; */
   /* background-size: cover; */
   padding: 60px 0px;
@@ -455,6 +455,7 @@ a.text-primary:hover {
 .page-header.product-details{
   background: url(../images/backgrounds/product3.png) 20% bottom no-repeat, url(../images/backgrounds/key.png) right bottom no-repeat;
   background-size: 10%,15% 37%;
+  background-color: #f3f3f3;
 }
 
 .page-header h1 {
@@ -1435,6 +1436,15 @@ a.text-primary:hover {
 
 .shopping.cart .product-list .table > tbody > tr > td {
   vertical-align: middle;
+}
+
+.cart_img {
+  background-color: #f0f0f0;
+  width: 70px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .shopping.cart .product-list .table img {
