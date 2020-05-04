@@ -169,161 +169,45 @@
         </div>
     </div>
     <!--search overlay end-->
-
-    <section class="page-header product-details">
-      <div class="overly"></div>
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-lg-6">
-                  <div class="content text-center">
-                      <h1 class="mb-3">Cart</h1>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quis? Maiores ipsum neque laboriosam, animi expedita consectetur</p>
-
-                      <nav aria-label="breadcrumb">
-                          <ol class="breadcrumb bg-transparent justify-content-center">
-                              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                              <li class="breadcrumb-item active" aria-current="page">Product Details</li>
-                          </ol>
-                      </nav>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-    <section class="cart shopping page-wrapper">
+    <!-- Page Wrapper -->
+    <section class="page-wrapper success-msg">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-lg-12">
-                    <div class="product-list">
-                        <form class="cart-form" action="#" method="post">
-                            <table class="table shop_table_responsive cart" cellspacing="0">
-                                <thead>
-                                    <tr>
-                                        <th>&nbsp;</th>
-                                        <th>Product</th>
-                                        <th>Price</th>
-                                        <th>Quantity</th>
-                                        <th>Total</th>
-                                        <th>&nbsp;</th>
-                                    </tr>
-                                </thead>
+                    <h4 class="mb-5">Thank you! For your payment</h4>
 
-                                <tbody>
-                                    <tr class="cart_item">
-                                        <td data-title="Thumbnail">
-                                            <a href="#">
-                                              <div class="cart_img">
-                                                <img src="images\shop\cart\cart.png" class="" alt="">
-                                              </div>
-                                            </a>
-                                        </td>
+                    <ul class="list-inline order-details">
+                        <li class="list-inline-item">
+                            Order number:
+                            <h5>90</h5>
+                        </li>
 
-                                        <td class="product-name" data-title="Product">
-                                            <a href="#">Led TV</a>
-                                        </td>
+                        <li class="list-inline-item">
+                            Date:
+                            <h5>June 12, 2019</h5>
+                        </li>
 
-                                        <td class="product-price" data-title="Price">
-                                            <span class="amount"><span class="currencySymbol">&#2547;</span>9250.00</span>
-                                        </td>
+                        <li class="list-inline-item">
+                            Email:
+                            <h5>test@mail.com</h5>
+                        </li>
 
-                                        <td class="product-quantity" data-title="Quantity">
-                                            <div class="quantity">
-                                                <label class="sr-only">Quantity</label>
+                        <li class="list-inline-item">
+                            Total:
+                            <h5>&#2547; 50</h5>
+                        </li>
 
-                                                <input type="number" id="qty" class="input-text qty text" step="1" min="0" max="9" value="1" title="Qty" size="4">
-                                            </div>
-                                        </td>
-                                        <td class="product-subtotal" data-title="Total">
-                                            <span class="amount">
-                                  <span class="currencySymbol">&#2547;</span>9250.00</span>
-                                        </td>
-
-                                        <td class="product-remove" data-title="Remove">
-                                            <a href="#" class="remove" aria-label="Remove this item" data-product_id="30" data-product_sku="">×</a>
-                                        </td>
-                                    </tr>
-
-                                    <tr class="cart_item">
-
-                                        <td class="product-thumbnail" data-title="Thumbnail">
-                                            <a href="#">
-                                              <div class="cart_img">
-                                                <img src="images\shop\cart\cart1.png" class="" alt="">
-                                              </div>
-                                            </a>
-                                        </td>
-
-                                        <td class="product-name" data-title="Product">
-                                            <a href="#">Smart Led TV</a>
-                                        </td>
-
-                                        <td class="product-price" data-title="Price">
-                                            <span class="amount"><span class="currencySymbol">&#2547;</span>35570.00</span>
-                                        </td>
-
-                                        <td class="product-quantity" data-title="Quantity">
-                                            <div class="quantity">
-                                                <label class="sr-only">Quantity</label>
-                                                <input type="number" id="quantity_5cc58182489a8" class="input-text qty text" step="1" min="0" max="9" name="#" value="1" title="Qty" size="4">
-                                            </div>
-                                        </td>
-                                        <td class="product-subtotal" data-title="Total">
-                                            <span class="amount">
-                                  <span class="currencySymbol">&#2547;</span>35570.00</span>
-                                        </td>
-                                        <td class="product-remove" data-title="Remove">
-                                            <a href="#" class="remove" aria-label="Remove this item" data-product_id="30" data-product_sku="">×</a>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td colspan="6" class="actions">
-                                            <div class="coupon">
-                                                <input type="text" name="coupon_code" class="input-text form-control" id="coupon_code" value="" placeholder="Coupon code">
-
-                                                <button type="submit" class="btn btn-black btn-small" name="apply_coupon" value="Apply coupon">Apply coupon</button>
-
-                                                <span class="float-right mt-3 mt-lg-0">
-                                    <button type="submit" class="btn btn-dark btn-small" name="update_cart" value="Update cart" disabled="">Update cart</button>
-                                  </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-end">
-                <div class="col-lg-4">
-                    <div class="cart-info card p-4 mt-4">
-                        <h4 class="mb-4">Cart totals</h4>
-
-                        <ul class="list-unstyled mb-4">
-                            <li class="d-flex justify-content-between pb-2 mb-3">
-                                <h5>Subtotal</h5>
-                                <span>&#2547; 90.00</span>
-                            </li>
-
-                            <li class="d-flex justify-content-between pb-2 mb-3">
-                                <h5>Shipping</h5>
-                                <span>&#2547; 10.00</span>
-                            </li>
-
-                            <li class="d-flex justify-content-between pb-2">
-                                <h5>Total</h5>
-                                <span>&#2547; 100.00</span>
-                            </li>
-                        </ul>
-                        <a href="checkout.html" class="btn btn-main btn-small">Proceed to checkout</a>
-                    </div>
+                        <li class="list-inline-item">
+                            Cash On Delivery
+                            <h5>Cash on delivery</h5>
+                        </li>
+                    </ul>
+                    <a href="shop.html" class="btn btn-main mt-4">Continue Shopping</a>
                 </div>
             </div>
         </div>
     </section>
+    <!-- /.page-warpper -->
 
     <footer class="footer">
       <div class="container">
