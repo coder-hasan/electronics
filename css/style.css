@@ -986,6 +986,10 @@ a.text-primary:hover {
   .slick-dots {
     display: block !important;
   }
+  .category_item {margin-bottom: 20px}
+  .slider .slider-item {
+    background: linear-gradient(180deg, rgba(255, 194, 175, 1) 50%, rgba(240, 241, 245, 1) 50%);
+  }
 }
 
 .product {
